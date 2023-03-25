@@ -1,0 +1,11 @@
+$h: 700px;
+.my-carousel{
+    padding: 0;
+    .carousel-item {
+        display: flex;
+        max-height: $h;
+        img {
+            object-fit: cover;
+        }
+    }
+} 

@@ -1,0 +1,45 @@
+html { overflow-x: hidden; }
+
+a {
+	text-decoration: none;
+}
+/* Carousel */
+.my-carousel {
+	padding: 0;
+}
+
+.my-carousel .carousel-item img {
+	object-fit: cover;
+}
+/* Carousel */
+
+.my-carousel .carousel-item {
+	display: flex;
+	max-height: 700px;
+}
+
+.my-img{
+	display: flex;
+	max-height: 340px;
+	object-fit: cover;
+}
+
+.business-logo{
+	display: flex;
+	max-height: 140px;
+	max-width: 100px;
+	object-fit: cover;
+}
+
+.my-col{
+	transform: scale(0.9);
+}
+
+html, body {
+	height: 100%;
+	margin: 0;
+   }
+   .footer,
+   .push {
+	height: 50px;
+   }
